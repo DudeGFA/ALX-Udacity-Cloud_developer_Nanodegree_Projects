@@ -19,13 +19,13 @@ Udagram is a simple cloud application that allows users to register and log into
 
 **PROJECT 4**   
 ### Develop-and-deploy-serverless-app   
-- Implemented the following functions:
-    Auth: a custom authorizer for API Gateway that is added to all other functions.
-    GetTodos:Returns all TODOS for a current user
-    CreateTodo: Creates a new TODO item for the current user
-    UpdateTODO: update a TODO item created by a current user.
-    DeleteTODO: deletes a TODO item created by a current user.
-    GenerateUploadUrl: returns a pre-signed URL that can be used to upload an attachment file for a TODO item.
+- Implemented the following functions:                      
+    Auth: a custom authorizer for API Gateway that is added to all other functions.         
+    GetTodos:Returns all TODOS for a current user       
+    CreateTodo: Creates a new TODO item for the current user        
+    UpdateTODO: update a TODO item created by a current user.       
+    DeleteTODO: deletes a TODO item created by a current user.      
+    GenerateUploadUrl: returns a pre-signed URL that can be used to upload an attachment file for a TODO item.      
 - Deployed the application using serverless framework
 - Auth0 is implemented into the application
 - AWS X-RAY distributed tracing is implemented
